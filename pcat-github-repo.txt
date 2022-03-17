@@ -1,0 +1,37 @@
+…or create a new repository on the command line
+
+echo "# PCAT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/onurozbey/PCAT.git
+git push -u origin main
+
+///////////////////////////////////////////////////////////
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/onurozbey/PCAT.git
+git branch -M main
+git push -u origin main
+
+///////////////////////////////////////////////////////////
+
+PCAT Projesi Ana Konu Başlıkları
+
+
+Prettier
+Github
+Nodemon
+Statik Dosyalar
+Template Engine
+Middleware Kavramı Giriş
+Express
+MongoDB
+Mongoose
+CRUD
+MVC
+Pagination (Sayfalama)
+Atlas MongoDB cloud
+Heroku Deployment
